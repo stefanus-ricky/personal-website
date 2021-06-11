@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+}
+
+nav { 
+  flex: 0 0 auto;
+  margin: 10px;
+  margin-top: 30px;
+  
+}
+.nav-wrapper{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.nav-link{
+  color: black;
+  font-size: 1.3rem;
+}
+#main-container {
+  height : 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+#resume-container {
+  margin: 0;
+}
+.summary{
+  margin-top: 10px;
+}
+.col3{
+  flex: 1 1 auto;  
+}
